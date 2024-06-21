@@ -57,7 +57,7 @@ const Navbar = () => {
               }}
             >
               <BiLogIn />
-              <span>Logout</span>
+              <span>Login</span>
             </button>
           </div>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
             id="dlogIn"
           >
             <BiLogIn />
-            <span>Logout</span>
+            <span>Login</span>
           </button>
         </nav>
       </header>
