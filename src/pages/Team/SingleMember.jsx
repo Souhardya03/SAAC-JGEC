@@ -33,9 +33,9 @@ export default function SingleMember(props) {
 				</BT>
 			</Card>
 			<Social>
-				<IoLogoFacebook />
+				
 				<IoLogoLinkedin />
-				<IoLogoInstagram />
+				
 			</Social>
 		</Member>
 	);
@@ -60,7 +60,7 @@ const Card = styled.div`
 	width: 220px;
 	height: 250px;
 	position: relative;
-	padding: 12px;
+	padding: 16px;
 	border-radius: 10px 0px 0px 10px;
 	display: flex;
 	flex-direction: column;
@@ -91,8 +91,8 @@ const Member = styled.div`
 	}
 `;
 const HeroImage = styled.div`
-	width: 100px;
-	height: 100px;
+	width: 105px;
+	height: 105px;
 	background-color: #123456;
 	border-radius: 50%;
 	background-size: cover;
