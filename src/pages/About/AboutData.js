@@ -85,18 +85,40 @@ const AboutData = [
 		para_2: (
 			<div className="flex flex-col">
 				<div>
-					<span>Foundation Day :</span> : 27th February, 2020.
+					<span>Foundation Day :</span> 27th February, 2020.
+				</div>
+				<div className="mt-4 d-grid gap-3">
+					<div>
+						<span>Founder :</span> Dipanjan Roy (JGEC, Mechanical Engineering
+						2016-2020 Batch)
+					</div>
+					<div>
+						<span>Co-founder :</span> Satyam Kumar (JGEC, Mechanical
+						Engineering 2016-2020 Batch)
+					</div>
+					<div>
+						<span>Other Founding Members :</span> Akash Bala (ME 2022), Rajdeep
+						Nath (ME 2023), Pranit Bhujel (IT 2020), Nigam Sarkar (EE 2020),
+						Ankita Das (CSE 2020), Arnab Barman (ECE 2020)
+					</div>
 				</div>
 				<div className="mt-4">
-					<span>Founder :</span> Dipanjan Roy ( JGEC, Mechanical Engineering
-					2016-2020 Batch ) Co-founder: Satyam Kumar ( JGEC, Mechanical
-					Engineering 2016-2020 Batch ) Other Founding Members: Akash Bala (ME
-					2022), Rajdeep Nath (ME 2023), Pranit Bhujel (IT 2020), Nigam Sarkar
-					(EE 2020), Ankita Das (CSE 2020), Arnab Barman (ECE 2020)
-				</div>
-                <div className="mt-4">
-					<span>The Journey of Foundation :</span>The idea of establishing a Student Space Club at JGEC was first proposed in 2017, in collaboration with Team Indus. Unfortunately, our proposal was not accepted. However, undeterred by this early setback, we remained resolute in our mission. In 2018, a request to <span>the Centre for Innovation (CFI)</span> helped in forming a section dedicated to Space technology, this was our first successful step towards our main goal. 
-                    From 2019 onwards, our plans of forming an independent Space Activity Centre began taking momentum and we started making a dedicated team of students having an unified vision. Our earnest efforts of 3 years was ultimately acknowledged in 2020, when we officially established <span>the Space and Aeronautics Activity Centre (SAAC)</span>, the first-of-its-kind in entire North Bengal. Adding Aeronautics to the domain of Space helped us in broadening our areas of work, thus acquiring necessary support from major organisations of the same kind.
+					<span>The Journey of Foundation :</span> The idea of establishing a
+					Student Space Club at JGEC was first proposed in 2017, in
+					collaboration with Team Indus. Unfortunately, our proposal was not
+					accepted. However, undeterred by this early setback, we remained
+					resolute in our mission. In 2018, a request to{" "}
+					<span>the Centre for Innovation (CFI)</span> helped in forming a
+					section dedicated to Space technology, this was our first successful
+					step towards our main goal. From 2019 onwards, our plans of forming an
+					independent Space Activity Centre began taking momentum and we started
+					making a dedicated team of students having an unified vision. Our
+					earnest efforts of 3 years was ultimately acknowledged in 2020, when
+					we officially established{" "}
+					<span>the Space and Aeronautics Activity Centre (SAAC)</span>, the
+					first-of-its-kind in entire North Bengal. Adding Aeronautics to the
+					domain of Space helped us in broadening our areas of work, thus
+					acquiring necessary support from major organisations of the same kind.
 				</div>
 			</div>
 		),
