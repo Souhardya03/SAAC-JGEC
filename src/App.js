@@ -7,6 +7,8 @@ import { AnimatePresence } from "framer-motion";
 import Banner from "./pages/Banner/Banner";
 import About from "./pages/About/About";
 import Aos from "aos";
+import Projects from "./pages/Projects/Projects";
+import Team from "./pages/Team/Team"
 
 function App() {
   Aos.init({
@@ -23,6 +25,8 @@ function App() {
           <Route exact path="/" element={<Banner />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/team" element={<Team/>}/>
         </Routes>
       </AnimatePresence>
       <Footer />

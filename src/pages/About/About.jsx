@@ -58,9 +58,9 @@ function About() {
                 </section>
             </motion.div>
 
-            <div className="section_divider"></div>
+            {/* <div className="section_divider"></div> */}
 
-            <section id="division">
+            {/* <section id="division">
                 <div className="division_header">
                     <h2>Our Divisions</h2>
                     <span className="content_divider">
@@ -82,7 +82,7 @@ function About() {
                         );
                     })}
                 </div>
-            </section>
+            </section> */}
 
             <div className="section_divider"></div>
 

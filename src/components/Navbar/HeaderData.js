@@ -9,24 +9,24 @@ const HeaderData = [
     },
     {
         to: "/leaderboard",
-        value: "Leaderboard",
+        value: "Noticeboard",
     },
     {
         to: "/projects",
         value: "Projects",
     },
-    {
-        to: "/gallery",
-        value: "Gallery",
-    },
+    // {
+    //     to: "/gallery",
+    //     value: "Gallery",
+    // },
     {
         to: "/blog",
         value: "Blog",
     },
-    {
-        to:"/team",
-        value:"Team"
-    },
+    // {
+    //     to:"/team",
+    //     value:"Team"
+    // },
     // {
     //     to: "/profile",
     //     value: "Profile"
