@@ -19,7 +19,7 @@ function Member() {
     return (
         <>
 
-            <div className="breadcrumb">
+            {/* <div className="breadcrumb">
                 <motion.div
                     exit="out"
                     animate="in"
@@ -31,7 +31,7 @@ function Member() {
                     <span></span>
                     <p>Take look on our Team Members!</p>
                 </motion.div>
-            </div>
+            </div> */}
 
             <motion.div
                 exit="out"

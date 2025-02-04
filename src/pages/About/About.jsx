@@ -9,6 +9,7 @@ import {
     pageVariants,
     pageTransition,
 } from "../../components/Framer/Animation";
+import Member from "../Team/Team";
 
 function About() {
     useEffect(() => {
@@ -58,8 +59,10 @@ function About() {
                 </section>
             </motion.div>
 
-            {/* <div className="section_divider"></div> */}
-
+            <div className="section_divider"></div>
+<section id="team">
+    <Member/>
+</section>
             {/* <section id="division">
                 <div className="division_header">
                     <h2>Our Divisions</h2>
