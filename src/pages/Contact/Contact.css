@@ -1,0 +1,29 @@
+section#contact .container { max-width: 1120px; margin: 3rem auto; }
+
+.contact_grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin: 2rem 1rem; }
+
+.contact_form { padding: 1.6rem; border-radius: 14px; background: var(--mediumBg); border: 1px solid rgba(255,255,255,0.06); box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
+
+.cf_row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+.cf_input, .cf_textarea { width: 100%; padding: 1rem 1.2rem; background: var(--lightBg); color: var(--darkwhite); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; margin: 0.6rem 0; }
+
+.cf_input::placeholder, .cf_textarea::placeholder { color: var(--lightgrey); }
+
+.cf_textarea { resize: vertical; }
+
+.cf_submit { display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.8rem 1.4rem; border: none; border-radius: 10px; background: linear-gradient(145deg, var(--darkviolet), var(--lightviolet)); color: var(--darkwhite); font-weight: 600; cursor: pointer; }
+
+.contact_toast { margin-top: 1rem; padding: 0.8rem 1.2rem; background: rgba(32, 253, 238, 0.1); color: var(--lightcyan); border: 1px dashed var(--lightcyan); border-radius: 10px; font-size: 1.3rem; }
+
+.contact_info { padding: 1.6rem; border-radius: 14px; background: var(--lightBg); border: 1px dashed rgba(255,255,255,0.12); height: fit-content; }
+
+.ci_item { display: flex; align-items: center; gap: 1rem; padding: 0.8rem 0; color: var(--darkwhite); }
+
+.ci_item svg { font-size: 2rem; color: var(--lightyellow); }
+
+.ci_item h5 { margin: 0; font-size: 1.4rem; color: var(--darkwhite); }
+
+.ci_item p { margin: 0.2rem 0 0; font-size: 1.3rem; color: var(--lightgrey); }
+
+@media (max-width: 992px) { .contact_grid { grid-template-columns: 1fr; } .cf_row { grid-template-columns: 1fr; } }

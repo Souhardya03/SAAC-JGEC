@@ -7,10 +7,10 @@ const HeaderData = [
         to: "/about",
         value: "About",
     },
-    {
-        to: "/leaderboard",
-        value: "Noticeboard",
-    },
+    // {
+    //     to: "/leaderboard",
+    //     value: "Noticeboard",
+    // },
     {
         to: "/projects",
         value: "Projects",
@@ -19,10 +19,10 @@ const HeaderData = [
     //     to: "/gallery",
     //     value: "Gallery",
     // },
-    {
-        to: "/blog",
-        value: "Blog",
-    },
+    // {
+    //     to: "/blog",
+    //     value: "Blog",
+    // },
     // {
     //     to:"/team",
     //     value:"Team"

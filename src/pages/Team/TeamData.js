@@ -30,7 +30,8 @@ const TeamData = [
   {
     name: "Souhardya Deb",
     department: "ECE-26",
-    designation: "Web Head"
+    designation: "Web Head",
+    image: "./img/team/Souhardya.jpg",
   },
   {
     name: "Suman Gorai",
