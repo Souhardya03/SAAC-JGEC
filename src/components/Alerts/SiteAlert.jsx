@@ -70,7 +70,7 @@ export default function SiteAlert() {
           {/* Direct Link */}
           <div className="group-link">
             <a
-              href="https://chat.whatsapp.com/FYOUR_INVITE_CODE"
+              href="https://chat.whatsapp.com/CbOQZCSU9rq3Rl5v30EYVB?mode=ems_copy_t"
               target="_blank"
               rel="noopener noreferrer"
             >
