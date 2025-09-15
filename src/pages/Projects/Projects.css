@@ -64,9 +64,11 @@ div.project_card:hover .project_figure {
 
 div.project_card .project_figure img {
     margin: auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
+    background-position: center;
+
 }
 
 /* Project Details */
